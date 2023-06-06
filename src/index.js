@@ -10,11 +10,10 @@ import {
 import Navbar from "./Components/Navbar";
 import "./App.css";
 import Home from "./routes/Home";
-import Services from "./routes/Services";
+import Destinations from "./routes/Destinations";
 import Booking from "./routes/Booking";
 import Packages from "./routes/Packages";
-import SignIn from "./routes/SignIn";
-import SignUp from "./routes/SignUp"
+import Holidays from "./routes/Holidays"
 
 const AppLayout = () => {
   return (
@@ -35,8 +34,8 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "services",
-        element: <Services />,
+        path: "destinations",
+        element: <Destinations />,
       },
       {
         path: "booking",
@@ -47,12 +46,8 @@ const router = createBrowserRouter([
         element: <Packages />,
       },
       {
-        path: "signin",
-        element: <SignIn />,
-      },
-      {
-        path: "signup",
-        element: <SignUp />,
+        path: "holidays",
+        element: <Holidays />
       },
     ],
   },

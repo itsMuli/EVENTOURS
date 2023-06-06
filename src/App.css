@@ -8,11 +8,11 @@
 }
 
 .home,
-.services,
-.Booking
-.packages
-.signin
-.signup {
+.destinations,
+.booking,
+.packages,
+.holidays
+ {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -30,11 +30,11 @@
 
 @media screen and (max-width: 960px) {
   .home,
-  .services,
-  .Booking
-  .packages
-  .signin
-  .signup {
+  .destinations,
+  .Booking,
+  .packages,
+  .holidays
+  {
     font-size: 2.5rem;
   }
 
