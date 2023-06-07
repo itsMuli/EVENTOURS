@@ -8,6 +8,7 @@ import {
   Outlet,
 } from "react-router-dom";
 import Navbar from "./Components/Navbar";
+import Searchbar from "./Components/Searchbar";
 import "./App.css";
 import Home from "./routes/Home";
 import Destinations from "./routes/Destinations";
@@ -19,6 +20,7 @@ const AppLayout = () => {
   return (
     <>
       <Navbar />
+      <Searchbar />
       <Outlet />
     </>
   );

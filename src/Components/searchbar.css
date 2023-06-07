@@ -1,0 +1,32 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .search-bar input {
+    width: 500px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .search-bar input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Media query for responsive design */
+  @media (max-width: 768px) {
+    .search-bar {
+      justify-content: flex-start;
+      margin-left: 10px;
+    }
+  
+    .search-bar input {
+      width: 150px;
+    }
+  }
+  
