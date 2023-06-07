@@ -5,7 +5,7 @@
   }
   
   .navbar {
-    background: rgb(219, 164, 11);
+    background: rgb(95, 94, 92);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@
   }
   
   .navbar-logo {
-    color: #fff;
+    color: black;
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
@@ -44,6 +44,7 @@
   
   .navbar-icon {
     margin-right: 0.5rem;
+    color: #000;
   }
   
   .nav-menu {
@@ -61,24 +62,25 @@
   }
   
   .nav-item:hover {
-    border-bottom: 2px solid #09bef0;
+    border-bottom: 7px solid #37225e;
   }
   
   .nav-links {
-    color: #fff;
+    color: black;
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
+    font-weight: 500;
   }
   
   .activated {
-    color: #09bef0;
+    color: black;
   }
   
   .fa-bars {
-    color: #fff;
+    color: black;
   }
   
   .menu-icon {
@@ -117,7 +119,7 @@
     }
   
     .nav-links:hover {
-      color: #09bef0;
+      color: #263f46;
       transform: scale(1.2);
       transition: all 0.3s ease;
     }

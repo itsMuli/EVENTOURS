@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import { FaPlane } from "react-icons/fa";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaPlane, FaHome, FaAirbnb, FaCalendar, FaBook, FaGift } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { NavLink } from "react-router-dom";
 
@@ -33,6 +32,7 @@ function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
+                  <FaHome className="navbar-icon" />
                   Home
                 </NavLink>
               </li>
@@ -44,6 +44,7 @@ function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
+                  <FaAirbnb className="navbar-icon" />
                   Destinations
                 </NavLink>
               </li>
@@ -55,6 +56,7 @@ function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
+                  <FaGift className="navbar-icon" />
                   Packages
                 </NavLink>
               </li>
@@ -66,6 +68,7 @@ function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
+                  <FaCalendar className="navbar-icon" />
                   Holidays
                 </NavLink>
               </li>
@@ -77,6 +80,7 @@ function Navbar() {
                   }
                   onClick={closeMobileMenu}
                 >
+                  <FaBook className="navbar-icon" />
                   Booking
                 </NavLink>
               </li>
